@@ -2,16 +2,7 @@ package sales;
 
 import java.util.List;
 
-public class SalesDao {
-
-	public Sales getSalesBySalesId(String salesId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public List<SalesReportData> getReportData(Sales sales) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+public interface SalesDao {
+    Sales getSalesBySalesId(String salesId);
+    List<SalesReportData> getReportData(Sales sales);
 }
